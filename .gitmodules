@@ -1,0 +1,3 @@
+[submodule "AtrBot"]
+	path = AtrBot
+	url = https://github.com/CoderBrian357NYC/AtrBot.git
