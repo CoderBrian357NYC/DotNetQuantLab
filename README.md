@@ -16,6 +16,16 @@ A long-only Bitcoin trading bot that uses:
 
 > Located in the `AtrBot` submodule.
 
+### ✅ [StochRSIBot](https://github.com/CoderBrian357NYC/StochRSIBot)
+A long-only cryptocurrency trading bot using the Stochastic RSI indicator with ATR-based position sizing.
+- **Supports Binance API for live trading.**
+- **Trades based on Stochastic RSI indicator signals.**
+- **Position sizing using ATR and an adjustable multiplier.**
+- Restricts to a single open position at any time.
+- Configurable parameters for flexibility.
+
+> Located in the `StochRSIBot` submodule.
+
 ---
 
 ## 🔧 Tech Stack
@@ -34,19 +44,9 @@ DotNetQuantLab/
 ├── AtrBot/                # Submodule: ATR-based Bitcoin bot
 ├── .gitmodules
 └── README.md
-
----
-
-
-### ✅ [StochRSIBot](https://github.com/CoderBrian357NYC/StochRSIBot)
-A long-only cryptocurrency trading bot using the Stochastic RSI indicator with ATR-based position sizing.
-- **Supports Binance API for live trading.**
-- **Trades based on Stochastic RSI indicator signals.**
-- **Position sizing using ATR and an adjustable multiplier.**
-- Restricts to a single open position at any time.
-- Configurable parameters for flexibility.
-
-> Located in the `StochRSIBot` submodule.
+├── StochRSIBot/                # Submodule: StochasticRSI-based Bitcoin bot
+├── .gitmodules
+└── README.md
 
 ---
 
