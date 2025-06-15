@@ -35,33 +35,19 @@ DotNetQuantLab/
 ├── .gitmodules
 └── README.md
 
+---
 
-### StochRSIBot [StochRSIBot](https://github.com/CoderBrian357NYC/StochRSIBot) 
 
-A long-only cryptocurrency trading bot using the Stochastic RSI indicator with ATR-based position sizing. 
-Designed to maintain only one open trade at a time.
+### ✅ [StochRSIBot](https://github.com/CoderBrian357NYC/StochRSIBot)
+A long-only cryptocurrency trading bot using the Stochastic RSI indicator with ATR-based position sizing.
+- **Supports Binance API for live trading.**
+- **Trades based on Stochastic RSI indicator signals.**
+- **Position sizing using ATR and an adjustable multiplier.**
+- Restricts to a single open position at any time.
+- Configurable parameters for flexibility.
 
-Configuration
+> Located in the `StochRSIBot` submodule.
 
-Equity: Initial capital for trading.
-atrMultiplier: Controls the position size relative to market volatility.
-MaxOpenTrades: Should be set to 1 to ensure only one trade is open at a time.
-StochRSI parameters such as the RSI period, Stochastic period, and smoothing factors.
-Trading pair and time intervals.
-How It Works
+---
 
-The bot fetches live price data from Binance.
-It calculates the Stochastic RSI indicator.
-When the StochRSI signals an oversold condition, the bot attempts to open a long position.
-The bot uses the ATR to size the position, adjusting for market volatility.
-Only one position is allowed open at any time; new entries are skipped if a trade is already open.
-Positions are closed based on exit conditions defined in the strategy.
-Future Enhancements
 
-Add short selling capability.
-Implement trailing stops and dynamic exits.
-Improve logging and monitoring features.
-Add backtesting capabilities.
-
-- Located in the `StochRSIBot` submodule.
-- [Read more in the StochRSIBot README](./StochRSIBot/README.md)
