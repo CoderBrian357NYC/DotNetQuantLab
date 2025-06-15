@@ -1,3 +1,6 @@
 [submodule "AtrBot"]
 	path = AtrBot
 	url = https://github.com/CoderBrian357NYC/AtrBot.git
+[submodule "StochRSIBot"]
+	path = StochRSIBot
+	url = https://github.com/YourUsername/StochRSIBot.git
